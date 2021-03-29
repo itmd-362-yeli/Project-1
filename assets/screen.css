@@ -1,6 +1,21 @@
 header{
   outline: 2px solid black;
-  padding: 175px;
+  padding: 115px;
   background-size: 25%;
   background-image: url('./images/background 1.jpg');
+  color: white;
+}
+h1{
+  font-size: 80px;
+}
+h2{
+  font-size: 40px;
+}
+fieldset{
+  text-align: center;
+  font-size: 25px;
+  padding: 50px;
+}
+p{
+
 }
