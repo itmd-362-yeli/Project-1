@@ -1,3 +1,4 @@
-funtion Redirect (){
-  window.location = "file:///C:/Users/yelit/itmd-362/Project-1/thank.html"
-}
+document.querySelector('#button')
+    addEventListener('click', () =>){
+       window.location.href = 'thank.html';
+    };
