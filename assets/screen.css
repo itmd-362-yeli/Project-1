@@ -1,12 +1,14 @@
 @import url("https://basehold.it/26");
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;1,400&family=PT+Serif:ital@1&display=swap');
 header{
   outline: 2px solid black;
   padding: 115px;
   background-size: 25%;
   background-image: url('./images/background 1.jpg');
   color: white;
-  font-family: 'Newsreader', serif;
+  font-family: 'PT Serif', serif;
 }
 h1{
   font-size: 80px;
@@ -19,4 +21,5 @@ label{
   align-content: center;
   justify-content: center;
   padding: 5px;
+  font-family: 'Newsreader', serif;
 }
