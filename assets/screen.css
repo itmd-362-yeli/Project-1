@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;1,400&family=PT+Serif:ital@1&display=swap');
+
+html{
+    background-color: #fff1f3;
+}
 header{
   outline: 2px solid black;
   padding: 115px;
@@ -30,4 +34,70 @@ label{
 }
 fieldset, form{
   background-color: #fff1f3;
+}
+#submit{
+  padding: 10px;
+}
+@media screen and (min-width: 300px){
+  html{
+      background-color: #fff1f3;
+  }
+  header{
+    outline: 2px solid black;
+    padding: 80px;
+    background-size: 60%;
+    background-image: url('./images/background 1.jpg');
+    color: white;
+    font-family: 'PT Serif', serif;
+  }
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  label{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Newsreader', serif;
+  }
+@media screen and (min-width: 500px) {
+  html{
+      background-color: #fff1f3;
+  }
+  header{
+    outline: 2px solid black;
+    padding: 80px;
+    background-size: 60%;
+    background-image: url('./images/background 1.jpg');
+    color: white;
+    font-family: 'PT Serif', serif;
+  }
+  h1{
+    font-size: 28px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  label{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Newsreader', serif;
+  }
 }
