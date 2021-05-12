@@ -23,3 +23,6 @@ label{
   padding: 5px;
   font-family: 'Newsreader', serif;
 }
+fieldset{
+  background-color: #fff1f3; 
+}
