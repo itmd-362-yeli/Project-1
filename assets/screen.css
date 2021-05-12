@@ -1,4 +1,4 @@
-@import url("https://basehold.it/26");
+/*@import url("https://basehold.it/26");*/
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;1,400&family=PT+Serif:ital@1&display=swap');
@@ -16,6 +16,11 @@ h1{
 h2{
   font-size: 40px;
 }
+h3{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 label{
   display: flex;
   align-content: center;
@@ -24,5 +29,5 @@ label{
   font-family: 'Newsreader', serif;
 }
 fieldset{
-  background-color: #fff1f3; 
+  background-color: #fff1f3;
 }
